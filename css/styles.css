@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+#color-box{
+    width: auto;
+    height: 400px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+}
+
+#change-color-btn{
+    margin-top: 50px;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: chartreuse;
+    color: black;
+    cursor: pointer;
+    border: goldenrod;
+}
